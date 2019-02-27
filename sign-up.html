@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>Sign Up - Spotify</title>
+        <link rel="stylesheet" href="style-sign-up.css" />
+      </head>
+      <body>
+        <nav>
+            <div class="container">
+                <img class="spotify-logo-black" src="img/spotify-logo-black.png" alt="spotify-logo-black">
+            </div>
+        </nav>
+        <header>
+            <div class="container form">
+                <button class="btn-facebook">sign up with facebook</button>
+                <span id="or"><p>or</p></span>
+                <h3>Sign up with your email address</h3>
+                <input id="email" type="text" placeholder="Email"/>
+                <input id="confirm-email" type="text" placeholder="Confirm email"/>
+                <input id="password" type="text" placeholder="Password"/>
+                <input id="call-you" type="text" placeholder="What should we call you?"/>
+                <p id="DOB">Day of birth</p>
+                <div class="birthday">
+                    
+                    <input id="day" type="text" placeholder="Day"/>
+                    <!-- <input id="month" type="text" placeholder="Month"/> -->
+                    <select id="month" name="Month">
+                        <option>Month</option>
+                        <option value="January">January</option>
+                        <option value="Febuary">Febuary</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                        </select>
+                    <input id="year" type="text" placeholder="Year"/>
+                </div>
+                <div class="gender">
+                    <input id="male" type="radio" name="gender" value="male">
+                    <label>Male</label>
+                    
+                    <input id="female" type="radio" name="gender" value="female">
+                    <label>Female</label>
+                    
+                    <input id="non" type="radio" name="gender" value="NA">
+                    <label>Non-binary</label>
+                </div>
+                <span id="check">
+                    <input type="checkbox">
+                    <label id="text-check">Share my registration data with Spotify's content providers for marketing purposes. Note that your data may be transferred to a country outside of the EEA as described in our privacy policy.</label>
+                </span>
+                <img id="robot" src="img/robot.png" alt="captcha">
+                <div class="term">
+                    <p>By clicking on Sign up, you agree to Spotify's <a href="https://www.spotify.com/uk/legal/end-user-agreement/">Terms and Conditions of Use</a>.</p> 
+                </div>
+                <div class="privacy">
+                    <p>To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's <a href="https://www.spotify.com/uk/legal/privacy-policy/">Privacy Policy</a>.</p>
+                </div>
+               
+            </div>
+            
+        </header>
+        <footer> 
+            <button class="btn-sign-up"><p>sign up</p></button>
+            <div class="already">
+                <p> Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </footer>
+      </body>
+    </html>
